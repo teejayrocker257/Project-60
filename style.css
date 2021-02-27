@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+}
+#profile{
+    opacity: 0.83;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+}
+img{
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+    width: 350px;
+    height: 350px;
+}
+img:hover{
+    transform: scale(0.9);
+}
